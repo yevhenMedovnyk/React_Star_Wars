@@ -1,0 +1,23 @@
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 25px 20px;
+	place-content: center;
+	padding-left: 0;
+	padding-top: 10px;
+	li{
+		overflow: hidden;
+		cursor: pointer;
+	}
+}
+.personPicture{
+	width: 100%;
+}
+.name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 23px;
+	font-weight: 600;
+	color: #fff;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 25px 20px;
+	place-content: center;
+	padding-left: 0;
+	padding-top: 10px;
+	p {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 20px;
+	}
+}
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navigationBtns {
+	display: flex;
+	column-gap: 20px;
+}
+
+
+

@@ -1,0 +1,16 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  background-color: #121111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}

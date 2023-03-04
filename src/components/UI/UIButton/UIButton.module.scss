@@ -1,0 +1,21 @@
+.button {
+	z-index: 1;
+	padding: 7px 10px;
+	min-width: 80px;
+	border-radius: 5px;
+	color: #fff;
+	letter-spacing: 0.1em;
+	border: 1px solid #fff;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.3s;
+	&:hover {
+		color: #bc3b93;
+		border: 1px solid #bc3b93;
+		border-radius: 4px;
+	}
+}
+:disabled {
+	opacity: 0.5;
+	cursor: auto;
+}
