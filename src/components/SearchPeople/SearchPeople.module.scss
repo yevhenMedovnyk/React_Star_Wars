@@ -1,10 +1,10 @@
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 20px 15px;
+	grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+	gap: 2rem 1.5rem;
 	place-content: center;
 	padding-left: 0;
-	padding-top: 10px;
+	padding-top: 1rem;
 	li {
 		overflow: hidden;
 		cursor: pointer;
@@ -15,17 +15,18 @@
 }
 .personImg {
 	width: 30%;
-	height: 130px;
+	height: 13rem;
 	object-fit: cover;
 	object-position: center;
-	margin-right: 20px;
+	margin-right: 2rem;
+	border-radius: 0.3rem;
 }
 .name {
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 10px;
+	padding: 1rem;
 }

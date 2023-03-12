@@ -1,19 +1,19 @@
 .wrapper {
 	display: flex;
 	align-items: center;
-	padding: 15px 10px 30px;
+	padding: 1.5rem 1rem 3rem;
 }
 .logo {
-	width: 50px;
-	height: 50px;
+	width: 6rem;
+	height: 6rem;
 	transition: 0.3s;
-	margin-right: 60px;
+	margin-right: 6rem;
 
 	&:hover {
 		transform: scale(1.1);
 	}
 }
-.menu{
+.menu {
 	margin: 0;
 	padding: 0;
 }
@@ -21,19 +21,19 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	column-gap: 2rem;
-	font-size: 22px;
+	column-gap: 3.2rem;
+	font-size: 2.2rem;
 }
 .menuLink {
 	display: flex;
 	justify-content: center;
-	min-width: 70px;
-	padding: 10px 7px;
+	min-width: 7rem;
+	padding: 1rem 0.7rem;
 	color: #fff;
 	font-weight: 600;
 	transition: 0.3s;
 	border: 1px solid transparent;
-	text-shadow: 0 0 10px;
+	text-shadow: 0 0 1rem;
 
 	&:hover {
 		color: #e178c0;
@@ -49,8 +49,8 @@
 }
 .favorites {
 	position: relative;
-	width: 50px;
-	height: 50px;
+	width: 5rem;
+	height: 5rem;
 	margin-left: auto;
 	cursor: pointer;
 	transition: 0.3s;
@@ -64,8 +64,8 @@
 	align-items: center;
 	justify-content: center;
 	font-weight: 600;
-	width: 20px;
-	height: 20px;
+	width: 2rem;
+	height: 2rem;
 	right: 0;
 	top: 0;
 	background-color: #fff;

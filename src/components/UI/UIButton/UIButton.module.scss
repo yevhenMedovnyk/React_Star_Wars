@@ -1,8 +1,8 @@
 .button {
 	z-index: 1;
-	padding: 7px 10px;
-	min-width: 80px;
-	border-radius: 5px;
+	padding: .7rem 1rem;
+	min-width: 8rem;
+	border-radius: .5rem;
 	color: #fff;
 	letter-spacing: 0.1em;
 	border: 1px solid #fff;
@@ -12,7 +12,7 @@
 	&:hover {
 		color: #bc3b93;
 		border: 1px solid #bc3b93;
-		border-radius: 4px;
+		border-radius: .4rem;
 	}
 }
 :disabled {
