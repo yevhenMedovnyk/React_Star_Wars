@@ -9,28 +9,28 @@ import {Error} from "./pages/Error/Error";
 import {Layout} from "./components/Layout/Layout";
 import {PersonPage} from "./pages/PersonPage/PersonPage";
 import {Favorite} from "./pages/Favorite/Favorite";
-import {useContext} from "react";
-import {ThemeContext} from "./providers/ThemProvider";
+import {useSelector} from "react-redux";
 
 import s from "./App.module.scss";
 
 function App() {
-	const { isLight } = useContext(ThemeContext);
+	const { isLight } = useSelector((state) => state.theme);
+	console.log(isLight);
 
   return (
-      <div className={[s.App, isLight ? s.light : ''].join(' ')}>
-        <Layout>
-          <Header />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/people' element={<PeoplePage />} />
-            <Route path='/people/:id' element={<PersonPage />} />
-            <Route path='/favorite' element={<Favorite />} />
-            <Route path='/search' element={<Search />} />
-            <Route path='*' element={<Error />} />
-          </Routes>
-        </Layout>
-      </div>
+    <div className={[s.App, isLight ? s.light : ""].join(" ")}>
+      <Layout>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/people' element={<PeoplePage />} />
+          <Route path='/people/:id' element={<PersonPage />} />
+          <Route path='/favorite' element={<Favorite />} />
+          <Route path='/search' element={<Search />} />
+          <Route path='*' element={<Error />} />
+        </Routes>
+      </Layout>
+    </div>
   );
 }
 

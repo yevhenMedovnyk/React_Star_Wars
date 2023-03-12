@@ -5,15 +5,12 @@ import {Provider} from "react-redux";
 import {store} from "./redux/store";
 import App from "./App";
 import s from "./index.scss";
-import { ThemeProvider } from "./providers/ThemProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <BrowserRouter>
-      <ThemeProvider>
-        <App />
-      </ThemeProvider>
+      <App />
     </BrowserRouter>
   </Provider>,
 );
