@@ -5,9 +5,11 @@ export const HTTP = 'http://';
 //swapi
 export const SWAPI_ROOT = 'swapi.dev/api/';
 export const SWAPI_PEOPLE = 'people/';
-const API_PARAMS_PAGE = '?page='
+const API_PARAMS_PAGE = '?page=';
+const API_PARAMS_SEARCH = '?search=';
 export const API_PEOPLE = HTTPS + SWAPI_ROOT + SWAPI_PEOPLE + API_PARAMS_PAGE;
 export const API_PERSONE = HTTPS + SWAPI_ROOT + SWAPI_PEOPLE;
+export const API_SEARCH = HTTPS + SWAPI_ROOT + SWAPI_PEOPLE + API_PARAMS_SEARCH;
 
 //visualguide
 const GUIDE_ROOT_IMG = 'https://starwars-visualguide.com/assets/img/';

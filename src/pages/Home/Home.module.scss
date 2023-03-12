@@ -1,0 +1,27 @@
+.title{
+	font-size: 48px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.wrapper {
+	display: flex;
+	column-gap: 20px;
+	justify-content: center;
+	padding: 60px;
+}
+
+.img {
+	max-width: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	object-fit: cover;
+	img {
+		transition: 0.4s;
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}

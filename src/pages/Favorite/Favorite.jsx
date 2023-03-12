@@ -12,7 +12,7 @@ export const Favorite = () => {
   return (
     <ul className={s.wrapper}>
       {personInFavorite.map((item) => (
-        <li>
+        <li key={item.id}>
           <Link to={`/people/${item.id}`}>
             <img className={s.personPicture} src={item.personPicture} alt='personPicture' />
             <p className={s.name}>{item.name}</p>

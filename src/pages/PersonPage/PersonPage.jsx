@@ -68,7 +68,7 @@ export const PersonPage = () => {
               alt='favorite'
             />
             <img className={s.personPicture} src={personPicture} alt='person' />
-            <h2>{el.name}</h2>
+            <h2 className={s.name}>{el.name}</h2>
           </div>
           <ul className={s.PersonInfo}>
             <li>

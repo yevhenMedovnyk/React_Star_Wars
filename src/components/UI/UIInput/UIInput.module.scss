@@ -1,0 +1,36 @@
+$width-clear-icon: 18px;
+
+.wrapper {
+	position: relative;
+	display: inline-flex;
+	min-width: 300px;
+}
+.input {
+	width: 100%;
+	border: 2px solid #222;
+	border-radius: 5px;
+	padding: 10px calc($width-clear-icon + 18px) 10px 15px;
+	outline: none;
+	font-size: 20px;
+	&::placeholder {
+		font-size: 17px;
+	}
+	&:focus {
+		border: 2px solid #bc3b93;
+		box-shadow: #bc3b93 0 0 15px 3px;
+	}
+}
+.closeIcon {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	opacity: 0.5;
+	transition: 0.3s;
+	&:hover {
+		opacity: 1;
+	}
+}

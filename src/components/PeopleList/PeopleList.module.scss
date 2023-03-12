@@ -1,8 +1,16 @@
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 25px 20px;
+	place-content: center;
+	padding-left: 0;
+	padding-top: 10px;
+}
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #fff;
 	overflow: hidden;
 	font-size: 24px;
 	border-radius: 5px;
@@ -14,7 +22,12 @@
 		object-position: top center;
 	}
 	p {
-		margin-top: 0.5rem;
-		color: #000;
+		display: flex;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 600;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 5px 10px;
 	}
 }

@@ -9,6 +9,7 @@ import {useQueryParams} from "../../hooks/useQueryParams";
 import s from "./PeoplePage.module.scss";
 import {PeopleList} from "../../components/PeopleList/PeopleList";
 import {UIButton} from "../../components/UI/UIButton/UIButton";
+import { ErrorMessage } from "../../components/ErrorMessage/ErrorMessage";
 
 export const PeoplePage = () => {
   const [people, setPeople] = useState([]);
@@ -67,7 +68,7 @@ export const PeoplePage = () => {
         </div>
       </div>
       <ul className={s.wrapper}>
-        {errorAPI ? <h2 style={{color: "#fff"}}>Error</h2> : <PeopleList people={people} />}
+        {errorAPI ? <ErrorMessage /> : <PeopleList people={people} />}
       </ul>
     </div>
   );

@@ -5,7 +5,7 @@ import s from "./PeopleList.module.scss";
 
 export const PeopleList = ({people}) => {
   return (
-    <>
+    <div className={s.container}>
       {" "}
       {people?.map(({name, img, id}) => (
         <li className={s.wrapper} key={name}>
@@ -15,6 +15,6 @@ export const PeopleList = ({people}) => {
           </Link>
         </li>
       ))}
-    </>
+    </div>
   );
 };

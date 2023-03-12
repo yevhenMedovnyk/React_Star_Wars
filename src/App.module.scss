@@ -1,8 +1,21 @@
+//vars
+$theme-bg-default: url(./assets/img/bg.jpg);
+$theme-bg-light: url(./assets/img/bg-light.jpg);
+
 .App {
 	font-size: 12px;
-	max-width: 1280px;
 	padding: 40px;
-	margin: 0 auto;
+	background-color: #121111;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: $theme-bg-default;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	min-height: 100dvh;
+}
+.App.light {
+	background-image: $theme-bg-light;
 }
 .header {
 	font-size: 13px;
