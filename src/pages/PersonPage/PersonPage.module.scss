@@ -1,6 +1,6 @@
 .wrapper {
 	display: flex;
-	column-gap: 40px;
+	column-gap: 4rem;
 	color: #fff;
 }
 .imgWrapper {
@@ -8,17 +8,17 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 270px;
+	max-width: 27rem;
 	overflow: hidden;
-	font-size: 24px;
-	border-radius: 5px;
+	font-size: 2.4rem;
+	border-radius: 0.5rem;
 	color: #222;
 	cursor: pointer;
 	text-align: center;
 	p {
 		margin-top: 0.5rem;
 		color: #000;
-		font-size: 24px;
+		font-size: 2.4rem;
 	}
 }
 .personPicture {
@@ -26,18 +26,18 @@
 	object-fit: cover;
 	object-position: top center;
 }
-.name{
+.name {
 	color: #fff;
 	font-weight: 600;
-	padding-top: 15px;
-	font-size: 28px;
+	padding-top: 1.5rem;
+	font-size: 2.8rem;
 }
 .favoriteBtn {
 	position: absolute;
-	right: 10px;
-	top: 10px;
-	width: 30px;
-	height: 30px;
+	right: 1rem;
+	top: 1rem;
+	width: 3rem;
+	height: 3rem;
 	overflow: hidden;
 	display: block;
 	transition: 0.3s;
@@ -50,9 +50,9 @@
 .PersonInfo {
 	display: flex;
 	flex-direction: column;
-	row-gap: 0.7rem;
-	padding-top: 30px;
-	font-size: 22px;
+	row-gap: 1rem;
+	padding-top: 3rem;
+	font-size: 2.2rem;
 	span {
 		color: #dbd6d6;
 	}
@@ -62,13 +62,13 @@
 	display: inline-block;
 	color: #fff;
 	cursor: pointer;
-	font-size: 24px;
-	padding: 7px 10px;
-	margin-bottom: 25px;
+	font-size: 2.4rem;
+	padding: 0.7rem 1rem;
+	margin-bottom: 2.5rem;
 	border: 1px solid #bc3b93;
-	border-radius: 4px;
+	border-radius: 0.4rem;
 	background-color: transparent;
-	padding-left: 37px;
+	padding-left: 3.7rem;
 	&::before {
 		position: absolute;
 		content: "";
@@ -76,7 +76,7 @@
 		top: 50%;
 		transform: translateY(-50%);
 		background: url("./../../assets/img/left-arrow.svg") no-repeat;
-		width: 30px;
-		height: 30px;
+		width: 3rem;
+		height: 3rem;
 	}
 }

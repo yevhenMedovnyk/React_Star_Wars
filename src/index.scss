@@ -1,5 +1,9 @@
-
-
+body {
+	font-family: "Libre Baskerville", serif;
+}
+html {
+	font-size: 62.5%;
+}
 //reset
 
 * {
@@ -86,7 +90,4 @@ h6 {
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-body {
-	
 }
