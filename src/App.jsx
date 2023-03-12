@@ -9,7 +9,7 @@ import {Error} from "./pages/Error/Error";
 import {Layout} from "./components/Layout/Layout";
 import {PersonPage} from "./pages/PersonPage/PersonPage";
 import {Favorite} from "./pages/Favorite/Favorite";
-import {useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 
 import s from "./App.module.scss";
 
