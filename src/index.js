@@ -11,7 +11,7 @@ import s from "./index.scss";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename={`/${REPO_NAME}/`}>
+    <BrowserRouter >
       <App />
     </BrowserRouter>
   </Provider>,

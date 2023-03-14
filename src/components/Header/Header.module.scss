@@ -4,6 +4,8 @@
 	padding: 1.5rem 1rem 3rem;
 }
 .logo {
+	z-index: 100;
+
 	width: 6rem;
 	height: 6rem;
 	transition: 0.3s;
@@ -12,17 +14,44 @@
 	&:hover {
 		transform: scale(1.1);
 	}
+	@media (max-width: 690px) {
+		margin-right: auto;
+	}
+	
 }
 .menu {
 	margin: 0;
 	padding: 0;
 }
 .menuList {
+	z-index: 99;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	column-gap: 3.2rem;
 	font-size: 2.2rem;
+	@media (max-width: 690px) {
+		position: fixed;
+		width: 70%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		padding-top: 14rem;
+		justify-content: start;
+		align-items: center;
+		row-gap: 2.5rem;
+		flex-direction: column;
+		background-color: #222;
+		overflow: auto;
+		transition: 0.3s;
+		transform: translateX(100%);
+	}
+	@media (max-width: 425px) {
+		width: 100%;
+	}
+}
+.menuList.open {
+	transform: translateX(0);
 }
 .menuLink {
 	display: flex;
@@ -48,6 +77,8 @@
 	border-radius: 4px;
 }
 .favorites {
+	z-index: 99;
+
 	position: relative;
 	width: 5rem;
 	height: 5rem;
@@ -57,8 +88,17 @@
 	&:hover {
 		transform: scale(1.1);
 	}
+	@media (max-width: 690px) {
+		margin-left: 2rem;
+	}
+	@media (max-width: 425px) {
+		width: 4rem;
+		height: 4rem;
+	}
 }
 .favoriteCounter {
+	z-index: 99;
+
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -72,4 +112,15 @@
 	color: #bc3b93;
 	cursor: pointer;
 	border-radius: 50%;
+}
+.burger {
+	z-index: 99;
+
+	display: none;
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	@media (max-width: 690px) {
+		display: inline-flex;
+	}
 }
