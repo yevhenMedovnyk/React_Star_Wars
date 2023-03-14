@@ -15,7 +15,7 @@ import s from "./App.module.scss";
 
 function App() {
 	const { isLight } = useSelector((state) => state.theme);
-	console.log(isLight);
+	
 
   return (
     <div className={[s.App, isLight ? s.light : ""].join(" ")}>
