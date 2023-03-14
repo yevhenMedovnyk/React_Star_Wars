@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Star_Wars/static/css/main.b1e943bb.css",
-    "main.js": "/React_Star_Wars/static/js/main.35f0ac46.js",
+    "main.css": "/React_Star_Wars/static/css/main.519b9648.css",
+    "main.js": "/React_Star_Wars/static/js/main.5ae8db6c.js",
     "static/css/190.8df400d4.chunk.css": "/React_Star_Wars/static/css/190.8df400d4.chunk.css",
     "static/js/190.7b366b05.chunk.js": "/React_Star_Wars/static/js/190.7b366b05.chunk.js",
     "static/media/bg-light.jpg": "/React_Star_Wars/static/media/bg-light.5eb8715a9326b91e2d90.jpg",
@@ -17,14 +17,16 @@
     "static/media/starW.svg": "/React_Star_Wars/static/media/starW.7a3ad6b364b9c8e3a7d76d383b010866.svg",
     "index.html": "/React_Star_Wars/index.html",
     "static/media/closeIcon.svg": "/React_Star_Wars/static/media/closeIcon.aab8ad93e8d0378e02a28e4e07a1b420.svg",
+    "static/media/burger-opened.svg": "/React_Star_Wars/static/media/burger-opened.cf6e49c0a80299b7fdd7e74442e89920.svg",
+    "static/media/burger.svg": "/React_Star_Wars/static/media/burger.0429aa7e802bd1b63663c7115431539c.svg",
     "static/media/left-arrow.svg": "/React_Star_Wars/static/media/left-arrow.513fea850e9e9a356e8c.svg",
-    "main.b1e943bb.css.map": "/React_Star_Wars/static/css/main.b1e943bb.css.map",
-    "main.35f0ac46.js.map": "/React_Star_Wars/static/js/main.35f0ac46.js.map",
+    "main.519b9648.css.map": "/React_Star_Wars/static/css/main.519b9648.css.map",
+    "main.5ae8db6c.js.map": "/React_Star_Wars/static/js/main.5ae8db6c.js.map",
     "190.8df400d4.chunk.css.map": "/React_Star_Wars/static/css/190.8df400d4.chunk.css.map",
     "190.7b366b05.chunk.js.map": "/React_Star_Wars/static/js/190.7b366b05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1e943bb.css",
-    "static/js/main.35f0ac46.js"
+    "static/css/main.519b9648.css",
+    "static/js/main.5ae8db6c.js"
   ]
 }
