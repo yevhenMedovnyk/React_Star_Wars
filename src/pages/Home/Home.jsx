@@ -20,7 +20,9 @@ export const Home = () => {
 
   return (
     <>
-      <h1 className={s.title}>Choose your side</h1>
+      <div className={s.titleWrapper}>
+        <h1 className={s.title}>Choose your side</h1>
+      </div>
       <div className={s.wrapper}>
         <div className={s.img}>
           <img onClick={onClickDarkTheme} src={dark} alt='dark side' />

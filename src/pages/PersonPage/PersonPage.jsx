@@ -70,25 +70,27 @@ export const PersonPage = () => {
             <img className={s.personPicture} src={personPicture} alt='person' />
             <h2 className={s.name}>{el.name}</h2>
           </div>
-          <ul className={s.PersonInfo}>
-            <li>
-              Birth year: <span>{el.birth_year}</span>
-            </li>
-            <li>
-              Eye color: <span>{el.eye_color}</span>
-            </li>
-            <li>
-              Height: <span>{el.height}cm</span>
-            </li>
-            <li>
-              Mass: <span>{el.mass}kg</span>
-            </li>
-          </ul>
-          {personFilms.length && (
-            <Suspense fallback={<Loader />}>
-              <PersonFilms personFilms={personFilms} />
-            </Suspense>
-          )}
+          <div className={s.textBlock}>
+            <ul className={s.PersonInfo}>
+              <li>
+                Birth year: <span>{el.birth_year}</span>
+              </li>
+              <li>
+                Eye color: <span>{el.eye_color}</span>
+              </li>
+              <li>
+                Height: <span>{el.height}cm</span>
+              </li>
+              <li>
+                Mass: <span>{el.mass}kg</span>
+              </li>
+            </ul>
+            {personFilms.length && (
+              <Suspense fallback={<Loader />}>
+                <PersonFilms personFilms={personFilms} />
+              </Suspense>
+            )}
+          </div>
         </div>
       ))}
     </>

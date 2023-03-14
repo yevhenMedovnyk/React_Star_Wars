@@ -1,5 +1,9 @@
 .wrapper{
 	padding: 2rem 4rem;
+	@media(max-width: 425px){
+	padding: 2rem 2rem;
+
+	}
 }
 .title{
 	color: #fff;

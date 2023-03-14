@@ -3,12 +3,12 @@ $width-clear-icon: 1.8rem;
 .wrapper {
 	position: relative;
 	display: inline-flex;
-	min-width: 30rem;
+	max-width: 30rem;
 }
 .input {
 	width: 100%;
 	border: 2px solid #222;
-	border-radius: .5rem;
+	border-radius: 0.5rem;
 	padding: 1rem calc($width-clear-icon + 1.8rem) 1rem 1.5rem;
 	outline: none;
 	font-size: 2rem;

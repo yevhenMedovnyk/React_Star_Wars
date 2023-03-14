@@ -6,11 +6,15 @@
 	text-align: center;
 	margin-top: 2rem;
 }
+.titleWrapper {
+	max-width: 30em;
+	margin: 0 auto;
+}
 .wrapper {
 	display: flex;
 	column-gap: 2rem;
 	justify-content: center;
-	padding: 3rem;
+	padding: 2rem;
 }
 
 .img {

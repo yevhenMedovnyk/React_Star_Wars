@@ -1,6 +1,9 @@
 ul{
 	padding-top: 3rem;
 	font-size: 1.8rem;
+	@media (max-width: 440px) {
+		font-size: 1.6rem;
+	}
 }
 li{
 	margin-bottom: 0.7rem;

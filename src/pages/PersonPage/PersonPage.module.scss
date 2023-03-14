@@ -2,6 +2,10 @@
 	display: flex;
 	column-gap: 4rem;
 	color: #fff;
+	@media (max-width: 690px) {
+		flex-direction: column;
+	}
+
 }
 .imgWrapper {
 	position: relative;
@@ -20,6 +24,12 @@
 		color: #000;
 		font-size: 2.4rem;
 	}
+	@media (max-width: 740px) {
+		max-width: 23rem;
+	}
+	@media (max-width: 690px) {
+		margin: 0 auto;
+	}
 }
 .personPicture {
 	width: 100%;
@@ -31,6 +41,9 @@
 	font-weight: 600;
 	padding-top: 1.5rem;
 	font-size: 2.8rem;
+	@media (max-width: 740px) {
+		font-size: 2.2rem;
+	}
 }
 .favoriteBtn {
 	position: absolute;
@@ -45,6 +58,10 @@
 	&:hover {
 		transform: scale(1.3);
 	}
+	@media (max-width: 740px) {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
 }
 
 .PersonInfo {
@@ -55,6 +72,12 @@
 	font-size: 2.2rem;
 	span {
 		color: #dbd6d6;
+	}
+	@media (max-width: 740px) {
+		font-size: 1.8rem;
+	}
+	@media (max-width: 440px) {
+		font-size: 1.6rem;
 	}
 }
 .goBack {

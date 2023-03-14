@@ -1,6 +1,6 @@
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
 	gap: 2rem 1.5rem;
 	place-content: center;
 	padding-left: 0;
@@ -14,7 +14,7 @@
 	}
 }
 .personImg {
-	width: 30%;
+	width: 9rem;
 	height: 13rem;
 	object-fit: cover;
 	object-position: center;
@@ -28,5 +28,5 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 1rem;
+	padding: 1rem 0rem;
 }
