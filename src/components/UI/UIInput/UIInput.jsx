@@ -9,12 +9,14 @@ export const UIInput = ({
   setSearchInputValue,
   handleInputChange,
   placeholder,
-  classes,
+	classes,
+	getResponse
 }) => {
   const inputRef = useRef(null);
   const clearInput = () => {
 	  setSearchInputValue("");
-	  inputRef.current.focus()
+	  getResponse('')
+	  inputRef.current.focus();
   };
 
   return (

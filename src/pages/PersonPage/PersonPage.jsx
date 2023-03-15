@@ -79,10 +79,10 @@ export const PersonPage = () => {
                 Eye color: <span>{el.eye_color}</span>
               </li>
               <li>
-                Height: <span>{el.height}cm</span>
+                Height: <span>{el.height} cm</span>
               </li>
               <li>
-                Mass: <span>{el.mass}kg</span>
+                Mass: <span>{el.mass} kg</span>
               </li>
             </ul>
             {personFilms.length && (

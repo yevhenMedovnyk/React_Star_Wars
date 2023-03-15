@@ -53,7 +53,8 @@ export const Search = () => {
         searchInputValue={searchInputValue}
         setSearchInputValue={setSearchInputValue}
         handleInputChange={handleInputChange}
-        classes={s.searchInput}
+			  classes={s.searchInput}
+			  getResponse={getResponse}
       />
       <SearchPeople people={people} />
     </div>
