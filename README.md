@@ -2,7 +2,7 @@
 This project is created on ReactJS using "The Star Wars API"
 
 
-- [You can try it here:](https://yevhenmedovnyk.github.io/React_Star_Wars/)
+- [You can try it here](https://yevhenmedovnyk.github.io/React_Star_Wars/)
 
 ---
 
