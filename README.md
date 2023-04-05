@@ -9,6 +9,7 @@ This project is created on ReactJS using "The Star Wars API"
 - ReactJS
 - React Router DOM
 - Redux Toolkit
+- REST API
 - SASS
 - Responsive web design
 
